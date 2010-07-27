@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   
   s.required_rubygems_version = ">= 1.3.7"
   
-  s.add_runtime_dependency "rails",  "3.0.0.beta4"
+  s.add_runtime_dependency "rails",  "3.0.0.rc"
   s.add_runtime_dependency "devise", "1.2.0"
   
   s.files        = Dir.glob("{app,config,lib}/**/*") + %w[CHANGELOG.rdoc LICENSE README.rdoc]
